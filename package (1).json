@@ -1,0 +1,21 @@
+{
+  "name": "icyreach-cloud-backend",
+  "version": "3.0.0",
+  "description": "IcyReach CRM cloud backend \u2014 deploy to Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.9",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.5",
+    "@supabase/supabase-js": "^2.39.0",
+    "stripe": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
